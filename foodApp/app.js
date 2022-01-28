@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
-let users = [{ id: '1', 'name': "Abhiskhek" }, { id: '2', 'name': "Hitesh" }, { id: '3', 'name': "aazz" }];
+let users = [{ id: '1', 'name': "Abhiskhek" }, { id: '2', 'name': "Hitesh Gurnani" }, { id: '3', 'name': "aazz" }];
 const userRouter = express.Router();
 const authRouter = express.Router();
 const mongoose = require('mongoose')
